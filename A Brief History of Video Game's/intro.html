@@ -1,0 +1,61 @@
+ <html>
+	<head>
+		<link href="intro.css" rel="stylesheet">
+		<script src="rellax.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="transition.css">
+		
+	</head>
+	<body style="background-color:white;">
+
+	
+	
+		<div class="rellax d1" data-rellax-speed="3">
+			<video autoplay muted loop id="myVideo">
+			  <source src="vb.mp4" type="video/mp4">
+			</video>
+ 
+		</div>
+		
+		
+		
+
+		<a href="main/mainpage.html">
+   	 <span></span>
+   	 <span></span>
+   	 <span></span>
+   	 <span></span>
+   	  EXPLORE!
+         </a>
+
+		<div class="banner-area">
+			
+			<h2><span class="type"></span></h2>
+			
+		</div>
+
+		
+
+		
+		
+		<script>
+            var rellax = new Rellax('.rellax', {
+            
+            callback: function(position) {
+                
+                console.log(position);
+            }
+          });
+        </script>
+		
+		<script src="typed.js"></script>
+		<script>
+			var typed = new Typed('.type', {
+				strings: ["the brief history</br>       of video games"],
+				typeSpeed: 40
+				});
+		</script>
+		
+	      
+	</body>
+ </html>

@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+
+html{
+
+	
+	scroll-behavior: smooth;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family:'Haike';
+	
+}
+p{
+
+	margin:0;
+    font-size: 1.1em;
+    font-family: 'Poppings', sans-serif;
+    color: white;
+	
+
+}
+body {
+    background: #060c21;;
+	min-height: 1500px;
+	
+
+
+	
+}
+
+section{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+section:before{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(to top, #0a2a43, transparent );
+	z-index: 10000;
+}
+
+
+section:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	
+	z-index: 10000;
+	mix-blend-mode: color;
+}
+
+section img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	pointer-events:none;
+	
+}
+@font-face {
+  font-family: 'Haike';
+  src: url('Haike-col.woff') format('woff'), 
+   url('Haike-col.ttf') format('truetype'); 
+} 
+
+#text{
+	position: relative;
+	color: #d50ce0;
+	font-size: 10em;
+	z-index: 1;
+}
+#road
+{
+	z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------SECTION2------------------------*/
+#sec2 h1{
+
+	position: absolute;
+	top:5%;
+    font-size: 8em;
+    color: white;
+
+}
+
+
+#sec2 ol{
+
+	position: absolute;
+	margin:0;
+	padding:0;
+    left:60%;
+    top:30%;
+
+}
+
+#sec2_video{
+	position: absolute;
+    top:25%;
+	left:10%;
+	width:45%;
+
+	
+}
+
+
+
+/*--------------------------SECTION3----------------------*/
+
+#sec3 h1{
+   position: absolute;
+   top:5%;
+   font-size: 8em;
+  
+   color: white;
+  
+
+}
+
+#sec3 ul{
+
+	position: absolute;
+	margin:0;
+	padding:0;
+    left:60%;
+    top:30%;
+
+}
+#sec3 ul li{
+
+	margin:0;
+    font-size: 1.1em;
+    font-family: 'Poppings', sans-serif;
+    color: white;
+
+
+}
+
+#sec3_video{
+	position: absolute;
+    top:25%;
+	left:10%;
+	width:45%;
+
+	
+}
+
+/*--------------------------SECTION 4----------------*/
+
+#sec4 h1{
+   position: absolute;
+   top:5%;
+   font-size: 8em;
+  
+   color: white;
+  
+
+}
+
+#sec4 ul{
+
+	position: absolute;
+	margin:0;
+	padding:0;
+    left:60%;
+    top:30%;
+
+}
+#sec4 ul li{
+
+	margin:0;
+    font-size: 1.5em;
+    font-family: 'Poppings', sans-serif;
+    color: white;
+
+
+}
+
+#sec4_video{
+	position: absolute;
+    top:25%;
+	left:10%;
+	width:45%;
+
+	
+}
+
+/*------------------SECTION 5--------------------*/
+#sec5 h1{
+   position: absolute;
+   top:5%;
+   font-size: 8em;
+  
+   color: white;
+  
+
+}
+
+#sec5 ul{
+
+	position: absolute;
+	margin:0;
+	padding:0;
+    left:60%;
+    top:30%;
+
+}
+#sec5 ul li{
+
+	margin:0;
+    font-size: 1.5em;
+    font-family: 'Poppings', sans-serif;
+    color: white;
+
+
+}
+
+#sec5_video{
+	position: absolute;
+    top:25%;
+	left:10%;
+	width:45%;
+
+	
+}
+
+
+/*------------------SECTION 6--------------------*/
+#sec6 h1{
+   position: absolute;
+   top:5%;
+   font-size: 8em;
+  
+   color: white;
+  
+
+}
+
+#sec6 ul{
+
+	position: absolute;
+	margin:0;
+	padding:0;
+    left:60%;
+    top:30%;
+
+}
+#sec6 ul li{
+
+	margin:0;
+    font-size: 1.5em;
+    font-family: 'Poppings', sans-serif;
+    color: white;
+
+
+}
+
+#sec6_video{
+	position: absolute;
+    top:25%;
+	left:10%;
+	width:45%;
+
+	
+}
+
+
+/*------------------SECTION 7--------------------*/
+#sec7 h1{
+   position: absolute;
+   top:5%;
+   font-size: 8em;
+  
+   color: white;
+  
+
+}
+
+#sec7 ul{
+
+	position: absolute;
+	margin:0;
+	padding:0;
+    left:60%;
+    top:30%;
+
+}
+#sec7 ul li{
+
+	margin:0;
+    font-size: 1.5em;
+    font-family: 'Poppings', sans-serif;
+    color: white;
+
+
+}
+#sec7_video{
+	position: absolute;
+    top:25%;
+	left:10%;
+	width:45%;
+
+	
+}
+/*------------------SECTION 8--------------------*/
+#sec8 h1{
+   position: absolute;
+   top:5%;
+   font-size: 8em;
+  
+   color: white;
+  
+
+}
+
+#sec8 ul{
+
+	position: absolute;
+	margin:0;
+	padding:0;
+    left:60%;
+    top:30%;
+
+}
+#sec8 ul li{
+
+	margin:0;
+    font-size: 1.5em;
+    font-family: 'Poppings', sans-serif;
+    color: white;
+
+
+}
+
+#sec8_video{
+	position: absolute;
+    top:25%;
+	left:10%;
+	width:45%;
+
+	
+}
+
+section:nth-child(2)
+{
+    background:url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section:nth-child(3)
+{
+    background:url(back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section:nth-child(4)
+{
+    background:url(1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section:nth-child(5)
+{
+    background:url(back2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section:nth-child(6)
+{
+    background:url(1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section:nth-child(7)
+{
+    background:url(back2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section:nth-child(8)
+{
+    background:url(back.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section:nth-child(9)
+{
+    background:url(back2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}

@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+#sec9
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	
+	font-family: 'Poppings', sans-serif;
+}
+#sec9 .container
+{
+	position: relative;
+
+ 	left: 300px;
+	width: 90%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+	grid-template-rows: auto;
+	grid-gap: 0 40px;
+	z-index: 100000;
+}
+#sec9 .container .box
+{
+	position: relative;
+	height: 400px;
+	background: #060c21; 
+	background-size: contain; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #000;
+}
+#sec9 .container .box:before
+{
+	content: '';
+	position: absolute;
+	top: -20px;
+	left: -2px;
+	right: -2px;
+	bottom: -2px;
+	background: #fff;
+	transform: skew(2deg,2deg);
+	z-index: -1;
+}
+#sec9 .container .box:nth-child(1):before
+{
+	background: linear-gradient(315deg,#ff0057,#e64a19);
+}
+#sec9 .container .box:nth-child(2):before
+{
+	background: linear-gradient(315deg,#e91e63,#5d02ff);
+}
+
+#sec9 .container .box:after
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: rgba(255,255,255,0.05);
+	pointer-events: none;
+}
+#sec9 .content
+{
+
+	position: relative;
+	padding: 20px;
+	transform: translate(40px);
+}
+#sec9 .box .content h2
+{
+	position: absolute;
+	top: -80px;
+	right: -100px;
+	margin: 0;
+	padding: 0;
+	font-size: 10em;
+	color: rgba(255,255,255,100);
+	transition: 0.5s; 
+}
+#sec9 .box:hover .content h2
+{
+	top: -180px;
+}
+#sec9 .box .content h3
+{
+	position: absolute;
+	top: 60px;
+	right: -120px;
+	height: 50px;
+	width: 250px;
+	margin: 0 0 10px;
+	padding: 10;
+	font-size: 24px;
+	text-align: right;
+	font-weight: 500;
+	color: #fff;
+	background: #060c21;
+}
+#sec9 .box .content p
+{
+	position: absolute;
+	top: 200px;
+	right: -100px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 16px;
+}
+#sec9 .box .content input
+{
+	position: absolute;
+	top: 100px;
+	right: -50px;
+	margin: 20px 0 0;
+	padding: 10px 20px;
+	border: 1px solid #fff;
+	display: inline-block;
+	color: #fff;
+	background-color: Transparent;
+	transition: 0.5s;
+	transform: translateY(-40px);
+	opacity: 0;
+	visibility: hidden;
+}
+#sec9 .box:hover .content input
+{
+	transform: translateY(0);
+	opacity: 1;
+	visibility: visible;
+}
+#sec9 .box .content input:hover
+{
+	color: #000;
+	background: #fff;
+}
+
+#sec9 ul
+{
+	position: relative;
+	top: -50px;
+	left: 220px;
+	width: 550px;
+	margin: 100px auto 0;
+	padding: 10px;
+	box-sizing: border-box;
+	background: rgba(0,0,0,.1);
+	box-shadow: inset 0 0 15px rgba(0,0,0,5);
+	border-radius: 5px;
+	overflow: hidden;
+	z-index: 100000;
+}
+#sec9 ul li
+{
+	display: flex;
+	background: rgba(255,255,255,.1);
+	padding: 10px 20px;
+	color: #fff;
+	margin: 5px 0;
+	transition: .5s;
+}
+#sec9 ul li:nth-child(1)
+{
+	background: rgba(255,255,255,.6);
+}
+#sec9 ul li:nth-child(2)
+{
+	background: rgba(255,255,255,.4);
+}
+#sec9 ul li:nth-child(3)
+{
+	background: rgba(255,255,255,.2);
+}
+
+#sec9 ul li span:nth-child(1)
+{
+	width: 50px;
+}
+#sec9 ul li span:nth-child(2)
+{
+	width: 200px;
+}
+#sec9 ul li span:nth-child(3)
+{
+	width: 100px;
+	text-align: right;
+}
+#sec9 ul li span:nth-child(4)
+{
+	width: 70px;
+	text-align: right;
+}
+#sec9 ul li:hover
+{
+	transform: scale(1.06);
+	background: #060c21;
+}
